@@ -85,6 +85,14 @@
             <version>${slf4j.version}</version>
         </dependency>
 
+        <!-- Mongo -->
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>1.7.0.RELEASE</version>
+        </dependency>
+
         <!-- Testing -->
 
         <dependency>

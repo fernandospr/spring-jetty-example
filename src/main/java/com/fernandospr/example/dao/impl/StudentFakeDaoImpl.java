@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@Repository("studentDao")
+@Repository("fakeStudentDao")
 public class StudentFakeDaoImpl implements StudentDao {
 	
 	private static List<Student> students;
